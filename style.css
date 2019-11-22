@@ -1,0 +1,112 @@
+/*top down "CSS"*/
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre&display=swap');
+body{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 4.7rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #7A7A7F;
+    background-color: #fff;
+}
+/*navbar*/
+.navbar {
+    transition: all 0.3s;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+  
+.navbar.active {
+    background: #fff;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+  
+@media (max-width: 991.98px) {
+    .navbar {
+      background: #fff;
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+/*navbar of BS4*/
+.navbar {
+    padding: 0.5rem 1rem;
+}  
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}  
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.nav-link {
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: #7A7A7F;
+  }
+.nav-link.disabled {
+    color: #dfe6e9;
+}
+.nav-link.active {
+    color: #dfe6e9;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+.nav-tabs .nav-link.disabled {
+    color: #dfe6e9;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #7A7A7F;
+    background-color: #fff;
+}
+.nav-tabs .dropdown-menu {
+    margin-top: -1px;
+}
+ .nav-pills .nav-link {
+    border-radius: 0.25rem;
+}
+/*landing*/
+section {
+    position: relative;
+/*    background: url(doodles.png) no-repeat !important;*/
+    padding: 6.5rem 0;
+  }
+  .section-padding {
+    padding: 6.5rem 0;
+  }
+  .section-padding-y {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+.bg-top {
+    background-position: top center !important;
+    
+  }
+.landingheading {
+    font-weight: 800 !important;
+    font-size: 3.5rem;
+    font-family: 'Proza Libre', serif;
+}
+.lead {
+    font-size: 2rem !important;
+    font-weight: 250 !important;
+  }
