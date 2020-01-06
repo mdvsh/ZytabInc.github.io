@@ -30,6 +30,9 @@ body{
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     }
 }
+.navbar-toggler {
+    color: #17141f;
+  }
 /*navbar of BS4*/
 .navbar {
     padding: 0.5rem 1rem;
@@ -110,3 +113,23 @@ section {
     font-size: 2rem !important;
     font-weight: 250 !important;
   }
+.text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: .1em;
+}
+.with-pattern-1::before {
+    content: '';
+    position: absolute;
+    background: url(images/pattern.png);
+    width: 265px;
+    height: 325px;
+    right: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.grayish {
+    color : #777 !important;
+    font-size: 1.2rem;
+}
