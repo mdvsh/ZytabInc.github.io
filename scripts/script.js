@@ -14,8 +14,12 @@ $(function () {
         }
     });
     $('body').scrollspy({
-        target: '#navbarSupportedContent',
+        target: '#nav_sup_content',
         offset: 80
+    });
+    $('.testimonials-slider').owlCarousel({
+        items: 1,
+        dots: true
     });
 }
 );

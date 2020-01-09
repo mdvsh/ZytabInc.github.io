@@ -26,7 +26,7 @@ body{
     .navbar {
       background: #fff;
       padding-top: 1rem !important;
-      padding-bottom: 1rem !important;
+      padding-bottom: 2rem !important;
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     }
 }
@@ -35,7 +35,7 @@ body{
   }
 /*navbar of BS4*/
 .navbar {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
 }  
 .navbar-brand {
     display: inline-block;
@@ -57,10 +57,10 @@ body{
     color: #7A7A7F;
   }
 .nav-link.disabled {
-    color: #dfe6e9;
+    color: #ff7675;
 }
 .nav-link.active {
-    color: #dfe6e9;
+    color: #0984e3;
 }
 .nav-tabs .nav-item {
     margin-bottom: -1px;
@@ -74,11 +74,11 @@ body{
     border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-    color: #dfe6e9;
+    color: #ff7675;
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-    color: #7A7A7F;
+    color: #0984e3;
     background-color: #fff;
 }
 .nav-tabs .dropdown-menu {
@@ -97,17 +97,17 @@ section {
     padding: 6.5rem 0;
   }
   .section-padding-y {
-    padding-top: 6.5rem;
-    padding-bottom: 6.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 .bg-top {
     background-position: top center !important;
-    
   }
 .landingheading {
     font-weight: 800 !important;
     font-size: 3.5rem;
     font-family: 'Proza Libre', serif;
+    margin-top: 30px;
 }
 .lead {
     font-size: 2rem !important;
@@ -118,18 +118,24 @@ section {
     letter-spacing: 0.1em;
     letter-spacing: .1em;
 }
-.with-pattern-1::before {
-    content: '';
-    position: absolute;
-    background: url(images/pattern.png);
-    width: 265px;
-    height: 325px;
-    right: 0px;
-    top: 0px;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
+
 .grayish {
     color : #777 !important;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+.card.with-pattern {
+    position: relative;
+}
+.card.with-pattern::before {
+    content: '';
+    background: url(images/pattern.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    border-radius: 0.35rem;
 }
